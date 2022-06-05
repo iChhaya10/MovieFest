@@ -1,6 +1,4 @@
 osx_image: xcode13.3
 language: swift
-os: osx
-xcode_project: MovieFest.xcodeproj
-xcode_scheme: MovieFest
-xcode_destination: platform=iOS Simulator,OS=15.4,name=iPhone 12
+script:
+- fastlane scan
